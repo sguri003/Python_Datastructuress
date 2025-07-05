@@ -10,7 +10,7 @@ def dict():
     d = {}
     with open('states.json','r') as us_states:
         d = json.load(us_states)
-        print(d)
+    print(d['states'])
 
 dict()
         
